@@ -1,3 +1,6 @@
+body {
+  background-color: rgb(252, 242, 230) !important;
+}
 .intro {
   display: flex;
   -webkit-box-pack: center;
