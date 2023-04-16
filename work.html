@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About me - May Nadi Moe</title>
+    <title>My Work</title>
     <link rel="stylesheet" href="style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
@@ -25,7 +25,7 @@
   <body>
     <nav class="navbar fixed-top navbar-expand-lg bg-danger-subtle">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/index.html#intro">May Nadi Moe</a>
+        <a class="navbar-brand" href="#intro">May Nadi Moe</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -43,15 +43,15 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/index.html"
+              <a class="nav-link active" aria-current="page" href="#home"
                 >Home</a
               >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/about.html">About Me</a>
-              <li class="nav-item">
-              <a class="nav-link" href="/work.html">My Work</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/work.html">My Work</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
@@ -60,34 +60,55 @@
         </div>
       </div>
     </nav>
-    <div class="about-section container intro mt-5">
-      <div class="row">
-        <div class="col">
-          <p>👋 Hello, I am</p>
-          <h1>May Nadi Moe</h1>
-          <h2 class="mb-4">
-            I am a programmer based in Myanmar and am currently focusing on web
-            development.
-            <hr />
-            <small>
-              My interest in web development started in 2022, and I decided to
-              start learning from the internet here and there. In March 2023, I
-              discovered SheCodes and started doing workshops. This website is
-              one of my SheCodes projects.
-            </small>
-          </h2>
-          <hr />
-          <a href="#contact" class="btn btn-outline-info mt-3">Contact Me</a>
-        </div>
-        <div class="col-3">
+    <div class="container projects" id="home">
+      <hr />
+      <h2 class="pt-5 mt-5">Take a look at what I've been working on!</h2>
+      <br />
+      <hr />
+      <div class="row mt-5 text-center">
+        <div class="col-md-6">
           <img
-            src="./images/mypic.jpg"
-            alt="mypic"
-            width="300px"
-            class="img-fluid rounded"
+            src="images/chocolate.png"
+            class="img-fluid rounded mb-3"
+            width="400px"
           />
+          <h3>Chocolate App</h3>
+
+          <p class="opacity-50">Built with HTML, CSS and JavaScript</p>
+          <a
+            href="https://fascinating-malasada-8c3a97.netlify.app/"
+            class="primary-link btn"
+            target="_blank"
+            >Launch</a
+          >
+        </div>
+
+        <div class="col-md-6 mt-md-5">
+          <img src="images/weather.png" class="img-fluid rounded mb-md-5" />
+          <h3 class="mb-3 mt-md-5">Weather app</h3>
+          <p class="opacity-50">Built with HTML, CSS and JavaScript</p>
+          <a
+            href="https://delicate-elf-580b66.netlify.app/"
+            class="primary-link btn"
+            target="_blank"
+            >Launch</a
+          >
+        </div>
+      </div>
+      <div class="row mt-5 text-center">
+        <div class="col-md-6">
+          <img src="images/bonchon.png" class="img-fluid rounded mb-3" />
+          <h3>BonChon</h3>
+          <p class="opacity-50">Built with HTML, CSS and JavaScript</p>
+          <a
+            href="https://resplendent-twilight-0b39bc.netlify.app/"
+            class="primary-link btn"
+            target="_blank"
+            >Launch</a
+          >
         </div>
       </div>
     </div>
+    <hr />
   </body>
 </html>
