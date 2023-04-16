@@ -12,4 +12,8 @@
 
 .intro h1 {
   color: blueviolet;
+  font-family: "cursive";
+}
+.intro h2 {
+  opacity: 50%;
 }
