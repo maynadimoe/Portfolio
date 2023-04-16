@@ -89,3 +89,20 @@ body {
   background-color: coral;
   color: rgb(252, 242, 230);
 }
+footer .contact-box {
+  background-color: rgba(255, 228, 196, 0.5);
+  padding: 30px 120px;
+  border-radius: 10px;
+  color: var(--primary-color);
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  background-color: rgba(255, 228, 196, 0.5);
+}
